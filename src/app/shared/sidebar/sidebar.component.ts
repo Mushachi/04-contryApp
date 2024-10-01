@@ -2,17 +2,29 @@ import { Component } from '@angular/core';
 import { RutasMenu } from '../interfaces/rutas-menu.interface';
 
 const Menus: RutasMenu[] = [
+  // {
+  //   nombre: 'Home',
+  //   url: 'home'
+  // },
+  // {
+  //   nombre: 'About',
+  //   url: 'about'
+  // },
+  // {
+  //   nombre: 'Contact',
+  //   url: 'contact'
+  // },
   {
-    nombre: 'Home',
-    url: 'home'
+    nombre: 'Por capital',
+    url: 'countries/by-capital'
   },
   {
-    nombre: 'About',
-    url: 'about'
+    nombre: 'Por país',
+    url: 'countries/by-country'
   },
   {
-    nombre: 'Contact',
-    url: 'contact'
+    nombre: 'Por region',
+    url: 'countries/by-region'
   },
 ];
 
