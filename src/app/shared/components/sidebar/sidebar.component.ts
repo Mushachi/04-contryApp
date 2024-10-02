@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RutasMenu } from '../interfaces/rutas-menu.interface';
+import { RutasMenu } from '../../interfaces/rutas-menu.interface';
 
 const Menus: RutasMenu[] = [
   // {
