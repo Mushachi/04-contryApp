@@ -4,6 +4,7 @@
   type="text"
   class="form-control"
   [placeholder]="placeholder"
-  (keyup)="onKeyPress( txtInput.value)"
+  [value]="initialValue"
+  (keyup)="onKeyPress( txtInput.value )"
   #txtInput
 >
